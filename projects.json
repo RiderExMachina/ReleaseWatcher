@@ -1,0 +1,21 @@
+{
+    "TowBoot" : {
+       "name"   : "TowBoot",
+       "url"    : "https://github.com/Tow-Boot/Tow-Boot/releases/latest",
+       "api_url": "https://api.github.com/repos/Tow-Boot/Tow-Boot/releases",
+       "latest_release" : "2021.10-005"
+    },
+    "IronOS" : {
+        "name" : "IronOS",
+        "url"  : "https://github.com/Ralim/IronOS/releases/latest",
+        "api_url"  : "https://api.github.com/repos/Ralim/IronOS/releases",
+        "latest_release" : "v2.19"
+    },
+    "InfiniTime" : {
+        "name" : "InfiniTime",
+        "url"  : "https://github.com/InfiniTimeOrg/InfiniTime/releases/latest",
+        "api_url"  : "https://api.github.com/repos/InfiniTimeOrg/InfiniTime/releases",
+        "latest_release" : "1.10.0"
+    }
+
+}
