@@ -1,9 +1,10 @@
 #! /usr/bin/env python3
 ## Relays information to both `print` and logfile.
+import logging, datetime
 
-def config(filename="program.log", level="INFO"):
-    return filename, level
+logging.basicConfig(filename=f"cpb-{datetime.datetime.now().strftime('%B-%d-%Y')}.log", encoding='utf-8', level=logging.INFO)
 
-def relay(msg):
-    print(msg)
-    logging.info(msg)
+if __name__ == "relay":
+    def relay(msg):
+        print(msg)
+        logging.info(msg)
