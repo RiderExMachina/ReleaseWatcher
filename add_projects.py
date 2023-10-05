@@ -20,10 +20,10 @@ def checkExisting():
         existing_projects = importedInfo["projects"]
     else:
         existing_projects = None
-    return existing_projects
+    return importedInfo, existing_projects
 
 def getNewFeeds():
-    old = checkExisting()
+    info, old = checkExisting()
     start = 0
     if old != None:
         start = len(old)
